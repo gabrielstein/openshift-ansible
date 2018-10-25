@@ -31,7 +31,7 @@ Use iptables:
 ```
 ---
 - hosts: servers
-  task:
+  tasks:
   - import_role:
       name: os_firewall
     vars:
